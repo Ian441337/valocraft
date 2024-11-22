@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "wuzu.ian.valocraft.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.valocraft.refmap.json",
+  "mixins": [],
+  "client": [],
+  "minVersion": "0.8"
+}
