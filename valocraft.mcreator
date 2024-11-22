@@ -9,7 +9,117 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "agends",
+        "children": [
+          {
+            "name": "jett",
+            "children": []
+          },
+          {
+            "name": "rayna",
+            "children": []
+          },
+          {
+            "name": "neon",
+            "children": []
+          },
+          {
+            "name": "sova",
+            "children": []
+          },
+          {
+            "name": "clove",
+            "children": []
+          },
+          {
+            "name": "brimstone",
+            "children": []
+          },
+          {
+            "name": "sage",
+            "children": []
+          },
+          {
+            "name": "viper",
+            "children": []
+          },
+          {
+            "name": "cypher",
+            "children": []
+          },
+          {
+            "name": "killjoy",
+            "children": []
+          },
+          {
+            "name": "omen",
+            "children": []
+          },
+          {
+            "name": "breach",
+            "children": []
+          },
+          {
+            "name": "raze",
+            "children": []
+          },
+          {
+            "name": "skye",
+            "children": []
+          },
+          {
+            "name": "yoru",
+            "children": []
+          },
+          {
+            "name": "astra",
+            "children": []
+          },
+          {
+            "name": "keyo",
+            "children": []
+          },
+          {
+            "name": "chamber",
+            "children": []
+          },
+          {
+            "name": "fade",
+            "children": []
+          },
+          {
+            "name": "harbor",
+            "children": []
+          },
+          {
+            "name": "gekko",
+            "children": []
+          },
+          {
+            "name": "deadlock",
+            "children": []
+          },
+          {
+            "name": "iso",
+            "children": []
+          },
+          {
+            "name": "vyse",
+            "children": []
+          },
+          {
+            "name": "phoenix",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "menus",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "valocraft",
@@ -19,11 +129,17 @@
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
-    "requiredMods": [],
+    "requiredMods": [
+      "geckolib"
+    ],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "use_compiled_mods",
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "wuzu.ian.valocraft"
   },
   "mcreatorVersion": 202400232117
