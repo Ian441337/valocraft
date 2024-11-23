@@ -13,12 +13,8 @@ public class ExplodeOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (!(ValocraftModVariables.MapVariables.get(world).spike_scale_x >= 36)) {
+		if (!(ValocraftModVariables.MapVariables.get(world).spike_scale_x >= 42)) {
 			ValocraftModVariables.MapVariables.get(world).spike_scale_x = ValocraftModVariables.MapVariables.get(world).spike_scale_x + 1;
-			ValocraftModVariables.MapVariables.get(world).syncData(world);
-			ValocraftModVariables.MapVariables.get(world).spike_scale_y = ValocraftModVariables.MapVariables.get(world).spike_scale_y + 1;
-			ValocraftModVariables.MapVariables.get(world).syncData(world);
-			ValocraftModVariables.MapVariables.get(world).spike_scale_z = ValocraftModVariables.MapVariables.get(world).spike_scale_y + 1;
 			ValocraftModVariables.MapVariables.get(world).syncData(world);
 			ValocraftMod.queueServerWork(1, () -> {
 				{

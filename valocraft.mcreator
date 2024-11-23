@@ -133,18 +133,6 @@
       "type": "number",
       "scope": "map",
       "value": "0"
-    },
-    {
-      "name": "spike_scale_y",
-      "type": "number",
-      "scope": "map",
-      "value": "0"
-    },
-    {
-      "name": "spike_scale_z",
-      "type": "number",
-      "scope": "map",
-      "value": "0"
     }
   ],
   "sound_elements": [],

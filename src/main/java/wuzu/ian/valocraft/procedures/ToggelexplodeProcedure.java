@@ -11,10 +11,6 @@ public class ToggelexplodeProcedure {
 			return;
 		ValocraftModVariables.MapVariables.get(world).spike_scale_x = 0;
 		ValocraftModVariables.MapVariables.get(world).syncData(world);
-		ValocraftModVariables.MapVariables.get(world).spike_scale_y = 0;
-		ValocraftModVariables.MapVariables.get(world).syncData(world);
-		ValocraftModVariables.MapVariables.get(world).spike_scale_z = 0;
-		ValocraftModVariables.MapVariables.get(world).syncData(world);
 		ValocraftModVariables.MapVariables.get(world).spike_x = entity.getX();
 		ValocraftModVariables.MapVariables.get(world).syncData(world);
 		ValocraftModVariables.MapVariables.get(world).spike_y = entity.getY();

@@ -91,8 +91,6 @@ public class ValocraftModVariables {
 		public double spike_y = 0;
 		public double spike_z = 0;
 		public double spike_scale_x = 0;
-		public double spike_scale_y = 0;
-		public double spike_scale_z = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -105,8 +103,6 @@ public class ValocraftModVariables {
 			spike_y = nbt.getDouble("spike_y");
 			spike_z = nbt.getDouble("spike_z");
 			spike_scale_x = nbt.getDouble("spike_scale_x");
-			spike_scale_y = nbt.getDouble("spike_scale_y");
-			spike_scale_z = nbt.getDouble("spike_scale_z");
 		}
 
 		@Override
@@ -115,8 +111,6 @@ public class ValocraftModVariables {
 			nbt.putDouble("spike_y", spike_y);
 			nbt.putDouble("spike_z", spike_z);
 			nbt.putDouble("spike_scale_x", spike_scale_x);
-			nbt.putDouble("spike_scale_y", spike_scale_y);
-			nbt.putDouble("spike_scale_z", spike_scale_z);
 			return nbt;
 		}
 
