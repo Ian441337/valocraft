@@ -1,6 +1,7 @@
 package wuzu.ian.valocraft.procedures;
 
 import wuzu.ian.valocraft.network.ValocraftModVariables;
+import wuzu.ian.valocraft.configuration.ExposionscaleConfiguration;
 import wuzu.ian.valocraft.ValocraftMod;
 
 import net.minecraft.world.level.LevelAccessor;
@@ -13,7 +14,7 @@ public class ExplodeOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (!(ValocraftModVariables.MapVariables.get(world).spike_scale_x >= 42)) {
+		if (!(ValocraftModVariables.MapVariables.get(world).spike_scale_x >= (double) ExposionscaleConfiguration.SCALE.get())) {
 			ValocraftModVariables.MapVariables.get(world).spike_scale_x = ValocraftModVariables.MapVariables.get(world).spike_scale_x + 1;
 			ValocraftModVariables.MapVariables.get(world).syncData(world);
 			ValocraftMod.queueServerWork(1, () -> {

@@ -107,6 +107,18 @@
         ]
       },
       "path": "~/spikes"
+    },
+    {
+      "name": "Exposionscale",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exposionscale",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/configuration/ExposionscaleConfiguration.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
