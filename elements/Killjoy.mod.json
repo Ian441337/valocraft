@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "85639c6ae92edada086139d9a70b26f7",
+    "texture": "2a7c2abe6b071a24fa3258955268abb3",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Neon",
+    "name": "Killjoy",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -38,7 +38,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "NeonRightclicked"
+      "name": "KilljoyRightclicked"
     },
     "enableRanged": false,
     "shootConstantly": false,

@@ -9,7 +9,11 @@
     "states": [],
     "name": "Clove",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Valocraft"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

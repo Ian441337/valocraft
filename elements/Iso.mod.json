@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "85639c6ae92edada086139d9a70b26f7",
+    "texture": "bd4ac8fc9c6c36ebf13f6b8be187d631",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Neon",
+    "name": "Iso",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -38,7 +38,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "NeonRightclicked"
+      "name": "IsoRightclicked"
     },
     "enableRanged": false,
     "shootConstantly": false,

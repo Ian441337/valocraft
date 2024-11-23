@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "valocraft:item/5bc37e4d652845e44b6a43111cdb238f"
+  }
+}

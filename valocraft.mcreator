@@ -247,6 +247,337 @@
         ]
       },
       "path": "~/morth"
+    },
+    {
+      "name": "KilljoyRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killjoy_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/KilljoyRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "Killjoy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killjoy",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/item/KilljoyItem.java",
+          "src/main/resources/assets/valocraft/models/item/killjoy.json"
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "ViperRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "viper_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/ViperRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "Viper",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "viper",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/item/ViperItem.java",
+          "src/main/resources/assets/valocraft/models/item/viper.json"
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "SageRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sage_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SageRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "Sage",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sage",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/valocraft/models/item/sage.json",
+          "src/main/java/wuzu/ian/valocraft/item/SageItem.java"
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "IsoRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iso_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/IsoRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "Iso",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iso",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/item/IsoItem.java",
+          "src/main/resources/assets/valocraft/models/item/iso.json"
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "SovaRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sova_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SovaRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "Sova",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sova",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/item/SovaItem.java",
+          "src/main/resources/assets/valocraft/models/item/sova.json"
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "GekkoRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gekko_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/GekkoRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "Gekko",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gekko",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/valocraft/models/item/gekko.json",
+          "src/main/java/wuzu/ian/valocraft/item/GekkoItem.java"
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "Skinrayna",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinrayna",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinraynaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/rayna"
+    },
+    {
+      "name": "Skinneon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinneon",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinneonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/neon"
+    },
+    {
+      "name": "Skinsova",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinsova",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinsovaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/sova"
+    },
+    {
+      "name": "Skinclove",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinclove",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkincloveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/clove"
+    },
+    {
+      "name": "Skinbrimstone",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinbrimstone",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinbrimstoneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/brimstone"
+    },
+    {
+      "name": "Skinsage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinsage",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinsageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/sage"
+    },
+    {
+      "name": "Skinviper",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinviper",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinviperProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/viper"
     }
   ],
   "variable_elements": [
@@ -280,12 +611,18 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.valocraft.sage": "Sage",
+      "item.valocraft.iso": "Iso",
+      "item.valocraft.gekko": "Gekko",
+      "item.valocraft.viper": "Viper",
+      "item.valocraft.neon": "Neon",
+      "item.valocraft.jett": "Jett",
       "item.valocraft.spike_spawn_egg": "Spike Spawn Egg",
       "entity.valocraft.spike": "Spike",
       "item_group.valocraft.valocraft": "Valocraft",
       "item.valocraft.clove": "Clove",
-      "item.valocraft.neon": "Neon",
-      "item.valocraft.jett": "Jett"
+      "item.valocraft.killjoy": "Killjoy",
+      "item.valocraft.sova": "Sova"
     }
   },
   "foldersRoot": {

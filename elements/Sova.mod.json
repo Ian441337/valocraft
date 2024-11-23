@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "85639c6ae92edada086139d9a70b26f7",
+    "texture": "183f64f832eb87b82d28da1e96b9050a",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Neon",
+    "name": "Sova",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -38,7 +38,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "NeonRightclicked"
+      "name": "SovaRightclicked"
     },
     "enableRanged": false,
     "shootConstantly": false,

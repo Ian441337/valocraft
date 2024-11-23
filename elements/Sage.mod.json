@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "85639c6ae92edada086139d9a70b26f7",
+    "texture": "553efa95e3c073f3f10fe263b8eaeca2",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Neon",
+    "name": "Sage",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -38,7 +38,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "NeonRightclicked"
+      "name": "SageRightclicked"
     },
     "enableRanged": false,
     "shootConstantly": false,

@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "85639c6ae92edada086139d9a70b26f7",
+    "texture": "5bc37e4d652845e44b6a43111cdb238f",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Neon",
+    "name": "Gekko",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -38,7 +38,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "NeonRightclicked"
+      "name": "GekkoRightclicked"
     },
     "enableRanged": false,
     "shootConstantly": false,
