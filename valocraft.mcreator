@@ -1,11 +1,32 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Spike",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spike",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/entity/model/SpikeModel.java",
+          "src/main/java/wuzu/ian/valocraft/entity/layer/SpikeLayer.java",
+          "src/main/java/wuzu/ian/valocraft/client/renderer/SpikeRenderer.java",
+          "src/main/resources/assets/valocraft/models/item/spike_spawn_egg.json",
+          "src/main/java/wuzu/ian/valocraft/entity/SpikeEntity.java"
+        ]
+      },
+      "path": "~/spikes"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.valocraft.spike_spawn_egg": "Spike Spawn Egg",
+      "entity.valocraft.spike": "Spike"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -117,6 +138,10 @@
       },
       {
         "name": "menus",
+        "children": []
+      },
+      {
+        "name": "spikes",
         "children": []
       }
     ]
