@@ -2,6 +2,7 @@ package wuzu.ian.valocraft;
 
 import wuzu.ian.valocraft.init.ValocraftModItems;
 import wuzu.ian.valocraft.init.ValocraftModEntities;
+import wuzu.ian.valocraft.init.ValocraftModBlocks;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -51,6 +52,8 @@ public class ValocraftMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		ValocraftModBlocks.REGISTRY.register(bus);
 
 		ValocraftModItems.REGISTRY.register(bus);
 		ValocraftModEntities.REGISTRY.register(bus);

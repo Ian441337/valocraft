@@ -16,16 +16,145 @@
         ]
       },
       "path": "~/spikes"
+    },
+    {
+      "name": "Spikeexplode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spikeexplode",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SpikeexplodeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/spikes"
+    },
+    {
+      "name": "Valoexplode",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valoexplode",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/command/ValoexplodeCommand.java"
+        ]
+      },
+      "path": "~/spikes"
+    },
+    {
+      "name": "Toggelexplode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toggelexplode",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/ToggelexplodeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/spikes"
+    },
+    {
+      "name": "ExplodeOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explode_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/ExplodeOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/spikes"
+    },
+    {
+      "name": "Explode",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explode",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/valocraft/models/item/explode.json",
+          "src/main/resources/assets/valocraft/models/block/explode.json",
+          "src/main/java/wuzu/ian/valocraft/block/ExplodeBlock.java",
+          "src/main/resources/data/valocraft/loot_tables/blocks/explode.json",
+          "src/main/resources/assets/valocraft/blockstates/explode.json"
+        ]
+      },
+      "path": "~/spikes"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "spike_x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "spike_y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "spike_z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "spike_scale_x",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "spike_scale_y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "spike_scale_z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.valocraft.spike_spawn_egg": "Spike Spawn Egg",
-      "entity.valocraft.spike": "Spike"
+      "entity.valocraft.spike": "Spike",
+      "block.valocraft.explode": "Explode"
     }
   },
   "foldersRoot": {
