@@ -215,7 +215,8 @@ public class SpikeexplodeProcedure {
 			end();
 		}
 		if (target(2)) {
-			renderShape((shape()), ValocraftModVariables.MapVariables.get(world).spike_x, ValocraftModVariables.MapVariables.get(world).spike_y, ValocraftModVariables.MapVariables.get(world).spike_z, 0, 0, 0, 35, 35, 35,
+			renderShape((shape()), ValocraftModVariables.MapVariables.get(world).spike_x, ValocraftModVariables.MapVariables.get(world).spike_y, ValocraftModVariables.MapVariables.get(world).spike_z, 0, 0, 0,
+					(float) ValocraftModVariables.MapVariables.get(world).spike_scale_x, (float) ValocraftModVariables.MapVariables.get(world).spike_scale_y, (float) ValocraftModVariables.MapVariables.get(world).spike_scale_z,
 					255 << 24 | 0 << 16 | 0 << 8 | 0);
 			release();
 		}

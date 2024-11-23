@@ -84,6 +84,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -92,18 +96,14 @@
       "path": "~/spikes"
     },
     {
-      "name": "Explode",
-      "type": "block",
+      "name": "Valoexpand",
+      "type": "command",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "explode",
+      "registry_name": "valoexpand",
       "metadata": {
         "files": [
-          "src/main/resources/assets/valocraft/models/item/explode.json",
-          "src/main/resources/assets/valocraft/models/block/explode.json",
-          "src/main/java/wuzu/ian/valocraft/block/ExplodeBlock.java",
-          "src/main/resources/data/valocraft/loot_tables/blocks/explode.json",
-          "src/main/resources/assets/valocraft/blockstates/explode.json"
+          "src/main/java/wuzu/ian/valocraft/command/ValoexpandCommand.java"
         ]
       },
       "path": "~/spikes"
@@ -153,8 +153,7 @@
   "language_map": {
     "en_us": {
       "item.valocraft.spike_spawn_egg": "Spike Spawn Egg",
-      "entity.valocraft.spike": "Spike",
-      "block.valocraft.explode": "Explode"
+      "entity.valocraft.spike": "Spike"
     }
   },
   "foldersRoot": {
