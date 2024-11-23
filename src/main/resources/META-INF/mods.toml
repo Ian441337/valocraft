@@ -28,6 +28,12 @@ authors="Ian13, MCreator"
     side="BOTH"
 
 [[dependencies.valocraft]]
+    modId="kleidersplayerrenderer"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.valocraft]]
     modId="use_compiled_mods"
     mandatory=false
     versionRange="[0,)"

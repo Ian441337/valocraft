@@ -107,54 +107,6 @@
         ]
       },
       "path": "~/spikes"
-    },
-    {
-      "name": "MenubuyOnKeyPressed",
-      "type": "procedure",
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "menubuy_on_key_pressed",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/valocraft/procedures/MenubuyOnKeyPressedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/menus"
-    },
-    {
-      "name": "Menubuy",
-      "type": "keybind",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "menubuy",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/valocraft/network/MenubuyMessage.java"
-        ]
-      },
-      "path": "~/menus"
     }
   ],
   "variable_elements": [
@@ -201,8 +153,7 @@
   "language_map": {
     "en_us": {
       "item.valocraft.spike_spawn_egg": "Spike Spawn Egg",
-      "entity.valocraft.spike": "Spike",
-      "key.valocraft.menubuy": "Menu_buy"
+      "entity.valocraft.spike": "Spike"
     }
   },
   "foldersRoot": {
@@ -337,6 +288,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
+      "kleidersplayerrenderer",
       "use_compiled_mods",
       "geckolib"
     ],
