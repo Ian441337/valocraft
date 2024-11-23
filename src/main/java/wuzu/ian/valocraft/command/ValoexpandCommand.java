@@ -3,6 +3,8 @@ package wuzu.ian.valocraft.command;
 
 import wuzu.ian.valocraft.procedures.ExplodeOnBlockRightClickedProcedure;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegisterCommandsEvent;
@@ -18,22 +20,20 @@ import net.minecraft.commands.Commands;
 public class ValoexpandCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("valoexpand")
+		event.getDispatcher().register(Commands.literal("valoexpand").requires(s -> s.hasPermission(4)).executes(arguments -> {
+			Level world = arguments.getSource().getUnsidedLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null && world instanceof ServerLevel _servLevel)
+				entity = FakePlayerFactory.getMinecraft(_servLevel);
+			Direction direction = Direction.DOWN;
+			if (entity != null)
+				direction = entity.getDirection();
 
-				.executes(arguments -> {
-					Level world = arguments.getSource().getUnsidedLevel();
-					double x = arguments.getSource().getPosition().x();
-					double y = arguments.getSource().getPosition().y();
-					double z = arguments.getSource().getPosition().z();
-					Entity entity = arguments.getSource().getEntity();
-					if (entity == null && world instanceof ServerLevel _servLevel)
-						entity = FakePlayerFactory.getMinecraft(_servLevel);
-					Direction direction = Direction.DOWN;
-					if (entity != null)
-						direction = entity.getDirection();
-
-					ExplodeOnBlockRightClickedProcedure.execute(world, entity);
-					return 0;
-				}));
+			ExplodeOnBlockRightClickedProcedure.execute(world, entity);
+			return 0;
+		}));
 	}
 }

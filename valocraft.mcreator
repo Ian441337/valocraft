@@ -119,6 +119,44 @@
           "src/main/java/wuzu/ian/valocraft/configuration/ExposionscaleConfiguration.java"
         ]
       }
+    },
+    {
+      "name": "Skinjett",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinjett",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinjettProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/jett"
+    },
+    {
+      "name": "Armjett",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armjett",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/ArmjettProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/jett"
     }
   ],
   "variable_elements": [

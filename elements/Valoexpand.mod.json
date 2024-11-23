@@ -4,7 +4,7 @@
   "definition": {
     "commandName": "valoexpand",
     "type": "STANDARD",
-    "permissionLevel": "No requirement",
+    "permissionLevel": "4",
     "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"call_procedure\"><field name=\"procedure\">ExplodeOnBlockRightClicked</field></block></next></block></xml>"
   }
 }
