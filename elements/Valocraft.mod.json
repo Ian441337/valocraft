@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Valocraft",
+    "icon": {
+      "value": "CUSTOM:Spike.spawn_egg"
+    },
+    "showSearch": false
+  }
+}

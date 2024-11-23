@@ -140,14 +140,38 @@
       "path": "~/agends/jett"
     },
     {
-      "name": "Armjett",
+      "name": "Jett",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jett",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/item/JettItem.java",
+          "src/main/resources/assets/valocraft/models/item/jett.json"
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "Valocraft",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valocraft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "JettRightclicked",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "armjett",
+      "registry_name": "jett_rightclicked",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/valocraft/procedures/ArmjettProcedure.java"
+          "src/main/java/wuzu/ian/valocraft/procedures/JettRightclickedProcedure.java"
         ],
         "dependencies": [
           {
@@ -156,7 +180,73 @@
           }
         ]
       },
-      "path": "~/agends/jett"
+      "path": "~/morth"
+    },
+    {
+      "name": "NeonRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/NeonRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "Neon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/item/NeonItem.java",
+          "src/main/resources/assets/valocraft/models/item/neon.json"
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "CloveRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clove_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/CloveRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/morth"
+    },
+    {
+      "name": "Clove",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clove",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/valocraft/models/item/clove.json",
+          "src/main/java/wuzu/ian/valocraft/item/CloveItem.java"
+        ]
+      },
+      "path": "~/morth"
     }
   ],
   "variable_elements": [
@@ -191,7 +281,11 @@
   "language_map": {
     "en_us": {
       "item.valocraft.spike_spawn_egg": "Spike Spawn Egg",
-      "entity.valocraft.spike": "Spike"
+      "entity.valocraft.spike": "Spike",
+      "item_group.valocraft.valocraft": "Valocraft",
+      "item.valocraft.clove": "Clove",
+      "item.valocraft.neon": "Neon",
+      "item.valocraft.jett": "Jett"
     }
   },
   "foldersRoot": {
@@ -308,6 +402,10 @@
       },
       {
         "name": "spikes",
+        "children": []
+      },
+      {
+        "name": "morth",
         "children": []
       }
     ]

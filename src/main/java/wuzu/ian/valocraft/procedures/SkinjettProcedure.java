@@ -1,7 +1,5 @@
 package wuzu.ian.valocraft.procedures;
 
-import wuzu.ian.valocraft.init.ValocraftModItems;
-
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
@@ -9,8 +7,6 @@ import net.minecraftforge.client.event.RenderLivingEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.player.PlayerRenderer;
@@ -38,7 +34,7 @@ public class SkinjettProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ValocraftModItems.SPIKE_SPAWN_EGG.get())) : false) {
+		if ((entity.getPersistentData().getString("agent")).equals("jett")) {
 			RenderLivingEvent _evt = (RenderLivingEvent) event;
 			Minecraft mc = Minecraft.getInstance();
 			EntityRenderDispatcher dis = Minecraft.getInstance().getEntityRenderDispatcher();
