@@ -1,14 +1,5 @@
 {
-  "item.valocraft.sage": "Sage",
-  "item.valocraft.gekko": "Gekko",
-  "item.valocraft.iso": "Iso",
-  "item.valocraft.viper": "Viper",
-  "item.valocraft.neon": "Neon",
-  "item.valocraft.jett": "Jett",
   "item.valocraft.spike_spawn_egg": "Spike Spawn Egg",
   "entity.valocraft.spike": "Spike",
-  "item_group.valocraft.valocraft": "Valocraft",
-  "item.valocraft.clove": "Clove",
-  "item.valocraft.killjoy": "Killjoy",
-  "item.valocraft.sova": "Sova"
+  "item_group.valocraft.valocraft": "Valocraft"
 }
