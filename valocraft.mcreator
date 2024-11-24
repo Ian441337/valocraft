@@ -578,6 +578,329 @@
         ]
       },
       "path": "~/agends/viper"
+    },
+    {
+      "name": "Skincypher",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skincypher",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkincypherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/cypher"
+    },
+    {
+      "name": "Skinkilljoy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinkilljoy",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinkilljoyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/killjoy"
+    },
+    {
+      "name": "Skinomen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinomen",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinomenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/omen"
+    },
+    {
+      "name": "Skinbreach",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinbreach",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinbreachProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/breach"
+    },
+    {
+      "name": "Skinraze",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinraze",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinrazeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/raze"
+    },
+    {
+      "name": "Skinskye",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinskye",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinskyeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/skye"
+    },
+    {
+      "name": "Skinyoru",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinyoru",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinyoruProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/yoru"
+    },
+    {
+      "name": "Skinastra",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinastra",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinastraProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/astra"
+    },
+    {
+      "name": "Skinkeyo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinkeyo",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinkeyoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/keyo"
+    },
+    {
+      "name": "Skinchamber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinchamber",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinchamberProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/chamber"
+    },
+    {
+      "name": "Skinfade",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinfade",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinfadeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/fade"
+    },
+    {
+      "name": "Skinharbor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinharbor",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinharborProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/harbor"
+    },
+    {
+      "name": "Skingekko",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skingekko",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkingekkoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/gekko"
+    },
+    {
+      "name": "Skindeadlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skindeadlock",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkindeadlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/deadlock"
+    },
+    {
+      "name": "Skiniso",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skiniso",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinisoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/iso"
+    },
+    {
+      "name": "Skinvyse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinvyse",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinvyseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/vyse"
+    },
+    {
+      "name": "Skinphoenix",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinphoenix",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/valocraft/procedures/SkinphoenixProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/agends/phoenix"
     }
   ],
   "variable_elements": [
@@ -612,8 +935,8 @@
   "language_map": {
     "en_us": {
       "item.valocraft.sage": "Sage",
-      "item.valocraft.iso": "Iso",
       "item.valocraft.gekko": "Gekko",
+      "item.valocraft.iso": "Iso",
       "item.valocraft.viper": "Viper",
       "item.valocraft.neon": "Neon",
       "item.valocraft.jett": "Jett",
