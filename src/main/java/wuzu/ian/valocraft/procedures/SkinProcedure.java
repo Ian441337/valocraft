@@ -10,6 +10,6 @@ public class SkinProcedure {
 	public static void execute(CommandContext<CommandSourceStack> arguments, Entity entity) {
 		if (entity == null)
 			return;
-		entity.getPersistentData().putString("agent", (StringArgumentType.getString(arguments, "name")));
+		entity.getPersistentData().putString("agent", (StringArgumentType.getString(arguments, "agent")));
 	}
 }
