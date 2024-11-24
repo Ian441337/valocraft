@@ -604,40 +604,6 @@
         ]
       },
       "path": "~/agends/phoenix"
-    },
-    {
-      "name": "Skin",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skin",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/valocraft/procedures/SkinProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Valorant",
-      "type": "command",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "valorant",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/valocraft/command/ValorantCommand.java"
-        ]
-      }
     }
   ],
   "variable_elements": [
