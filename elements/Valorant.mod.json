@@ -5,6 +5,6 @@
     "commandName": "valorant",
     "type": "STANDARD",
     "permissionLevel": "4",
-    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"old_command\"><field name=\"procedure\">Skin</field></block></next></block><block type=\"call_procedure\" x=\"47\" y=\"232\"><field name=\"procedure\">Skin</field></block></xml>"
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"message\"><field name=\"name\">name</field><statement name=\"args\"><block type=\"old_command\"><field name=\"procedure\">Skin</field></block></statement></block></next></block><block type=\"call_procedure\" x=\"47\" y=\"232\"><field name=\"procedure\">Skin</field></block></xml>"
   }
 }
