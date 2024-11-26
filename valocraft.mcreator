@@ -15,7 +15,7 @@
           "src/main/java/wuzu/ian/valocraft/entity/SpikeEntity.java"
         ]
       },
-      "path": "~/spikes"
+      "path": "~/spike"
     },
     {
       "name": "Spikeexplode",
@@ -34,7 +34,7 @@
           }
         ]
       },
-      "path": "~/spikes"
+      "path": "~/spike"
     },
     {
       "name": "Valoexplode",
@@ -47,7 +47,7 @@
           "src/main/java/wuzu/ian/valocraft/command/ValoexplodeCommand.java"
         ]
       },
-      "path": "~/spikes"
+      "path": "~/spike"
     },
     {
       "name": "Toggelexplode",
@@ -70,7 +70,7 @@
           }
         ]
       },
-      "path": "~/spikes"
+      "path": "~/spike"
     },
     {
       "name": "ExplodeOnBlockRightClicked",
@@ -93,7 +93,7 @@
           }
         ]
       },
-      "path": "~/spikes"
+      "path": "~/spike"
     },
     {
       "name": "Valoexpand",
@@ -106,7 +106,7 @@
           "src/main/java/wuzu/ian/valocraft/command/ValoexpandCommand.java"
         ]
       },
-      "path": "~/spikes"
+      "path": "~/spike"
     },
     {
       "name": "Exposionscale",
@@ -774,7 +774,7 @@
         "children": []
       },
       {
-        "name": "spikes",
+        "name": "spike",
         "children": []
       }
     ]
