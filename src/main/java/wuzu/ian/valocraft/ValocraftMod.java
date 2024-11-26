@@ -1,5 +1,6 @@
 package wuzu.ian.valocraft;
 
+import wuzu.ian.valocraft.init.ValocraftModTabs;
 import wuzu.ian.valocraft.init.ValocraftModItems;
 import wuzu.ian.valocraft.init.ValocraftModEntities;
 
@@ -54,6 +55,8 @@ public class ValocraftMod {
 
 		ValocraftModItems.REGISTRY.register(bus);
 		ValocraftModEntities.REGISTRY.register(bus);
+
+		ValocraftModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
